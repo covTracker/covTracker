@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: password
+  host: localhost
+
+development:
+  <<: *default
+  database: covr_development
+
+test:
+  <<: *default
+  database: covr_test
+
+production:
+  <<: *default
+  database: covr_production
+  # username: covr
+  # password: <%= ENV['COVR_DATABASE_PASSWORD'] %>
