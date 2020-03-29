@@ -13,6 +13,17 @@
     <h1>Covid19 Tracker</h1>
     <h2>HAC19: Hackers Against Covid19</h2>
       <%= image_tag 'map.png', class: 'worldmap' %>
-      <h1><%= @rosters.inspect %></h1>
+      <!-- <h1>< @rosters.inspect %></h1> -->
+      <% @rosters.each do |roster| %>
+      <div>
+        <h1><%= roster.username %></h1><br />
+        <i><%= roster.email %></i><br />
+        <p><%= roster.phone %></p><br />
+        <p><%= roster.travel %></p><br />
+      </div>
+
+      <hr />
+      <% end %>
+
   </body>
 </html>
