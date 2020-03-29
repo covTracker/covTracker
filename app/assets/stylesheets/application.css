@@ -13,4 +13,4 @@
  *= require_tree .
  *= require_self
  */
- .class { background-image: url(<%= /Users/art/Desktop/coding-environment/src/covr/covr/map.png  'map.png' %>) }
+ /* .class { background-image: url(<%= /Users/art/Desktop/coding-environment/src/covr/covr/map.png  'map.png' %>) } */
