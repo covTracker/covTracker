@@ -13,7 +13,8 @@
     <h1>Covid19 Tracker</h1>
     <h2>HAC19: Hackers Against Covid19</h2>
       <%= image_tag 'map.png', class: 'worldmap' %>
-      <% @rosters.each do |roster| %>
+      <!-- <h1>< @rosters.inspect %></h1> -->
+      <% @rostersz.each do |roster| %>
       <div>
         <h1><%= roster.username %></h1>
         <i><%= roster.email %></i>
