@@ -1,24 +1,13 @@
-# README
+# COVIDTRACKER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app collects data in a survey to track and monitor the progress of patients, and participants.
 
-Things you may want to cover:
+app records:
 
-* Ruby version
+* patient name
 
-* System dependencies
+* email address
 
-* Configuration
+* phone contact
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* and travelled status
