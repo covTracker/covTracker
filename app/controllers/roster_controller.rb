@@ -1,7 +1,10 @@
 class RosterController < ApplicationController
 
   def index
-    @rostersz= Roster.all
+    @rosters= Roster.all
+  end
+
+  def new
   end
 
 end
